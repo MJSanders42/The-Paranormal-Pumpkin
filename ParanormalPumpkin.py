@@ -49,7 +49,7 @@ def transcribe_audio(filename='input.wav'):
 #*************************************************
 
 # The prompt that will be sent to the LLM to give it context on what it is
-pumpkin_prompt = "You are an enchanted Halloween pumpkin named Donald Trumpkin. A pumpkin haunted by the spirit of Donald Trump. Reply with an exaggerated version of Donald Trump's personality. Reply briefly (35 words or less), keep it spooky, and pg-13 rating only"
+pumpkin_prompt = "You are an cursed Halloween pumpkin inhabitied by the spirit of a pyschopathic killer. Reply briefly (35 words or less), keep it spooky, and be as gruesome and scary as possible"
 def ask_Ai(user_text: str) -> str:
     if not user_text.strip():
         return ""
